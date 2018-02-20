@@ -28,20 +28,17 @@
 
 5.Add requirements.txt in Project Root Directory
 
-    >pip freeze > requirements.txt
+    > pip freeze > requirements.txt
     
 **Note:** Dont create a sub folder for requirements.txt in project root directory,place it in the project root directory
 
 6. Add .gitignore file  which consists of
-
-> venv
-
->*.pyc
-
->staticfiles
-
->.env
-
+```
+venv
+*.pyc
+staticfiles
+.env
+```
 7.Push the code/project to heroku master branch
 
 - Intialize git
