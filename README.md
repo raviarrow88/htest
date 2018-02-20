@@ -8,7 +8,10 @@
  
 3.Create a heroku account after installing CLI 
 
-4.Add a **Procfile** in the project root directory 
+4.Add a **Procfile** and **runtime.txt** in the project root directory 
+
+- Add python language version in runtime.txt 
+   > python-3.6.4
  
 - Install gunicorn 
   > pip install gunicorn
@@ -22,7 +25,7 @@
     - Project Name: htest
     - App name: website
    
-- My project **Procfile**
+- My project **Procfile** 
 
     > web: gunicorn --pythonpath website website.wsgi
 
