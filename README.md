@@ -28,7 +28,7 @@
 
 5.Add requirements.txt in Project Root Directory
 
-    > pip freeze > requirements.txt
+     pip freeze > requirements.txt
     
 **Note:** Dont create a sub folder for requirements.txt in project root directory,place it in the project root directory
 
